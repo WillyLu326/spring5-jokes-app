@@ -23,7 +23,7 @@ public class JokeController {
         return "chucknorris";
     }
 
-    @RequestMapping("/idnex")
+    @RequestMapping("/index")
     public String index() {
         return "Index json";
     }
